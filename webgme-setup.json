@@ -1,10 +1,18 @@
 {
   "components": {
-    "seeds": {},
+    "seeds": {
+      "Petri-net": {
+        "src": "src/seeds/Petri-net"
+      }
+    },
     "plugins": {
       "myplugin": {
         "src": "src/plugins/myplugin",
         "test": "test/plugins/myplugin"
+      },
+      "TypeCheck": {
+        "src": "src/plugins/TypeCheck",
+        "test": "test/plugins/TypeCheck"
       }
     },
     "visualizers": {

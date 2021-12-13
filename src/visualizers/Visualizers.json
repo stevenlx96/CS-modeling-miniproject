@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "pnvisualizer",
+    "title": "pnvisualizer",
+    "panel": "panels/pnvisualizer/pnvisualizerPanel",
+    "DEBUG_ONLY": false
+  }
+]

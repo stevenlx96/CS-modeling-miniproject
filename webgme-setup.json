@@ -1,4 +1,25 @@
 {
-  "components": {},
-  "dependencies": {}
+  "components": {
+    "seeds": {},
+    "plugins": {
+      "myplugin": {
+        "src": "src/plugins/myplugin",
+        "test": "test/plugins/myplugin"
+      }
+    },
+    "visualizers": {
+      "pnvisualizer": {
+        "src": "panels/pnvisualizer/pnvisualizerPanel",
+        "title": "pnvisualizer",
+        "panel": "src/visualizers/panels/pnvisualizer",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/pnvisualizer"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {},
+    "visualizers": {}
+  }
 }
